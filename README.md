@@ -105,19 +105,19 @@ This gap leaves accident victims without timely support, especially when acciden
 │                                                             │
 │                    SMART HELMET CIRCUIT                     │
 │                                                             │
-│  Battery (3.7V)                                            │
+│  Battery (3.7V)                                             │
 │      │                                                      │
-│      ├─→ Power Management Module                           │
-│           │                                                │
-│           ├─→ Arduino Nano (Microcontroller)               │
-│           │      │                                         │
-│           │      ├─→ I2C Bus ──→ MPU6050 (Accel+Gyro)    │
-│           │      │                                        │
-│           │      ├─→ Serial UART ──→ ESP8266 (WiFi)      │
-│           │      │                                        │
-│           │      └─→ Serial UART ──→ Neo GPS Module       │
-│           │                                                │
-│           └─→ GSM Module (SIM800) for SMS                 │
+│      ├─→ Power Management Module                            │
+│           │                                                 │
+│           ├─→ Arduino Nano (Microcontroller)                │
+│           │      │                                          │
+│           │      ├─→ I2C Bus ──→ MPU6050 (Accel+Gyro)       │
+│           │      │                                          │
+│           │      ├─→ Serial UART ──→ ESP8266 (WiFi)         │
+│           │      │                                          │
+│           │      └─→ Serial UART ──→ Neo GPS Module         │
+│           │                                                 │
+│           └─→ GSM Module (SIM800) for SMS                   │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -380,10 +380,8 @@ of this software and associated documentation files...
 
 ### Get Help
 
-- 📧 **Email**: [Your Email]
-- 🐦 **Twitter**: [@YourHandle]
-- 💼 **LinkedIn**: [Your Profile]
-- 🌐 **Website**: [Your Website]
+- 📧 **Email**: [keyurchauhan15@gmail.com]
+- 💼 **LinkedIn**: [www.linkedin.com/in/keyur-chauhan-]
 
 ### Report Issues
 
