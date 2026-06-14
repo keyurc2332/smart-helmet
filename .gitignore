@@ -1,0 +1,70 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Arduino IDE
+build/
+dist/
+*.elf
+*.hex
+
+# Build directories
+bin/
+obj/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Platform IO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Node modules
+node_modules/
+npm-debug.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS specific
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# Arduino IDE specific
+.build/
+.compilation_log
+*.ino.cpp
+*.ino.cpp.o
+
+# Secrets (API keys, passwords)
+secrets.h
+credentials.h
+config_local.h
+.env
+
+# Test results
+test_results/
+coverage/
+*.tap
