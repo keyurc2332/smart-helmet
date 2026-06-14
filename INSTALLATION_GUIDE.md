@@ -116,10 +116,10 @@ If LED blinks, Arduino is working ✅
          Breadboard Layout
 ┌─────────────────────────────────┐
 │  +   -   +   -   GND            │ ← Power rails
-│  ⊞   ⊞   ⊞   ⊞   ⊞              │
-│  ⊞   ⊞   ⊞   ⊞   ⊞              │
-│  ⊞   ⊞   ⊞   ⊞   ⊞              │
-│  ...                           │
+│  ⊞   ⊞   ⊞   ⊞   ⊞          │
+│  ⊞   ⊞   ⊞   ⊞   ⊞          │
+│  ⊞   ⊞   ⊞   ⊞   ⊞          │
+│  ...                            │
 └─────────────────────────────────┘
 
 Connections:
@@ -207,20 +207,20 @@ Note: Use Software Serial to keep hardware serial for USB
 Top View of Custom PCB:
 ┌────────────────────────────────┐
 │  Antenna    GPS Module         │
-│                 ⊞⊞            │
+│                 ⊞⊞           │
 │ ┌─────────────────────────────┤
 │ │  MPU6050           ESP8266  │
-│ │  ⊞⊞⊞⊞⊞          ⊞⊞⊞⊞⊞⊞   │
+│ │  ⊞⊞⊞⊞⊞          ⊞⊞⊞⊞⊞⊞ 
 │ │                            │
 │ │  Arduino Nano              │
-│ │  ⊞⊞⊞⊞⊞⊞⊞⊞⊞⊞⊞⊞⊞          │
+│ │  ⊞⊞⊞⊞⊞⊞⊞⊞⊞⊞⊞⊞⊞  │
 │ │                            │
 │ │  Battery        Charging   │
-│ │  ⊞⊞⊞⊞⊞⊞⊞     Module⊞⊞   │
+│ │  ⊞⊞⊞⊞⊞⊞⊞     Module⊞⊞│
 │ │                            │
 │ └─────────────────────────────┤
 │ GSM Module                     │
-│ ⊞⊞⊞⊞                          │
+│ ⊞⊞⊞⊞                        │
 └────────────────────────────────┘
 ```
 
